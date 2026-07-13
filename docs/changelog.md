@@ -143,6 +143,8 @@ As features stabilize some brief notes about them will accumulate here.
   Thanks to @masriomarm! #6895
 * Indicate support for OSC 52 (clipboard extensions) in Primary DA Response.
   Thanks to @j4james! #7046
+* internal: Add NixOS-based VMs configurations for live testing in fresh desktop environments.
+  See dedicated section in [CONTRIBUTING.md](../CONTRIBUTING.md).
 
 #### Fixed
 * Race condition when very quickly adjusting font scale, and other improvements
@@ -276,6 +278,7 @@ As features stabilize some brief notes about them will accumulate here.
   a zero-sized placement (e.g. `w=0`/`h=0`), or displaying a cell-sized image on a pane
   whose pty reported no pixel dimensions (e.g. in `tmux -CC` domain).
   Such images are now refused instead of taking down the pane. Thanks to @zakrad! #6344
+* Fix render loop freeze when closing workspaces. Thanks to @JafarAbdi! #7444
 
 #### Updated
 * Bundled conpty.dll and OpenConsole.exe to build 1.22.250204002.nupkg
