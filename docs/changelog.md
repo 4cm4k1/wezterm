@@ -144,7 +144,7 @@ As features stabilize some brief notes about them will accumulate here.
 * Indicate support for OSC 52 (clipboard extensions) in Primary DA Response.
   Thanks to @j4james! #7046
 * internal: Add NixOS-based VMs configurations for live testing in fresh desktop environments.
-  See dedicated section in [CONTRIBUTING.md](../CONTRIBUTING.md).
+  See dedicated section in [CONTRIBUTING.md](https://github.com/wezterm/wezterm/blob/main/CONTRIBUTING.md)
 
 #### Fixed
 * Race condition when very quickly adjusting font scale, and other improvements
