@@ -145,6 +145,8 @@ As features stabilize some brief notes about them will accumulate here.
   Thanks to @j4james! #7046
 * internal: Add NixOS-based VMs configurations for live testing in fresh desktop environments.
   See dedicated section in [CONTRIBUTING.md](https://github.com/wezterm/wezterm/blob/main/CONTRIBUTING.md)
+* The default tab bar rendering now shows an animated spinner when ConEmu style
+  OSC 9 escapes set the progress state to "Indeterminate".
 
 #### Fixed
 * Race condition when very quickly adjusting font scale, and other improvements
